@@ -11,8 +11,7 @@ Standing\
 Laying
 
 **(2) Measurements**\
-The following numeric variables are all of the mean and standard deviation values for the corresponding measurements based on the subject and the activity.
-
+The following numeric variables are all of the mean and standard deviation values for the corresponding measurements based on the subject and the activity.<br/>
 TimeDomainBodyAccelerometerMeanX\
 TimeDomainBodyAccelerometerMeanY\
 TimeDomainBodyAccelerometerMeanZ\
