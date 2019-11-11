@@ -1,7 +1,8 @@
 This code book describes all of the data fields in the Final_Tidy_Data.txt file.
 
 **(1) Identifiers**\
-**subject**: the integer ID of the test subject, in the range of 1-30.\
+**subject**: the integer ID of the test subject, in the range of 1-30.
+
 **activity**: the string type of activities which were performed as below when the measurements were taken.\
 Walking\
 Walking Upstairs\
@@ -11,7 +12,8 @@ Standing\
 Laying
 
 **(2) Measurements**\
-The following numeric variables are all of the mean and standard deviation values for the corresponding measurements based on the subject and the activity.\ 
+The following numeric variables are all of the mean and standard deviation values for the corresponding measurements based on the subject and the activity.
+
 TimeDomainBodyAccelerometerMeanX\
 TimeDomainBodyAccelerometerMeanY\
 TimeDomainBodyAccelerometerMeanZ\
