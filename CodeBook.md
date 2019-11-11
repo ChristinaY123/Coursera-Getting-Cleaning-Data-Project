@@ -8,10 +8,10 @@ Walking Upstairs\
 Walking Downstairs\
 Sitting\
 Standing\
-Laying\
+Laying
 
 **(2) Measurements**\
-The following numeric variables are all of the mean and standard deviation values for the corresponding measurements based on the subject and the activity. \ 
+The following numeric variables are all of the mean and standard deviation values for the corresponding measurements based on the subject and the activity.\ 
 TimeDomainBodyAccelerometerMeanX\
 TimeDomainBodyAccelerometerMeanY\
 TimeDomainBodyAccelerometerMeanZ\
@@ -97,5 +97,4 @@ FrequencyDomainBodyGyroscopeSTDZ\
 FrequencyDomainBodyAccelerometerMagnitudeSTD\
 FrequencyDomainBodyAccelerometerJerkMagnitudeSTD\
 FrequencyDomainBodyGyroscopeMagnitudeSTD\
-FrequencyDomainBodyGyroscopeJerkMagnitudeSTD\
-
+FrequencyDomainBodyGyroscopeJerkMagnitudeSTD
