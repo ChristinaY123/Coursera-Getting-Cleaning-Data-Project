@@ -45,15 +45,15 @@ names(Selected_Data)[2] <- "activity"
 names(Selected_Data) <- gsub("[^[:alnum:]]", "", names(Selected_Data)) # remove special characters
 names(Selected_Data) <- gsub("^t", "TimeDomain", names(Selected_Data))
 names(Selected_Data) <- gsub("tBody", "TimeDomainBody", names(Selected_Data))
-names(Selected_Data)<-gsub("^f", "FrequencyDomain", names(Selected_Data))
-names(Selected_Data)<-gsub("Acc", "Accelerometer", names(Selected_Data))
-names(Selected_Data)<-gsub("Gyro", "Gyroscope", names(Selected_Data))
-names(Selected_Data)<-gsub("BodyBody", "Body", names(Selected_Data)) # correct typo
-names(Selected_Data)<-gsub("Mag", "Magnitude", names(Selected_Data))
-names(Selected_Data)<-gsub("mean", "Mean", names(Selected_Data), ignore.case = TRUE)
-names(Selected_Data)<-gsub("std", "STD", names(Selected_Data), ignore.case = TRUE)
-names(Selected_Data)<-gsub("angle", "Angle", names(Selected_Data))
-names(Selected_Data)<-gsub("gravity", "Gravity", names(Selected_Data))
+names(Selected_Data) <- gsub("^f", "FrequencyDomain", names(Selected_Data))
+names(Selected_Data) <- gsub("Acc", "Accelerometer", names(Selected_Data))
+names(Selected_Data) <- gsub("Gyro", "Gyroscope", names(Selected_Data))
+names(Selected_Data) <- gsub("BodyBody", "Body", names(Selected_Data)) # correct typo
+names(Selected_Data) <- gsub("Mag", "Magnitude", names(Selected_Data))
+names(Selected_Data) <- gsub("mean", "Mean", names(Selected_Data), ignore.case = TRUE)
+names(Selected_Data) <- gsub("std", "STD", names(Selected_Data), ignore.case = TRUE)
+names(Selected_Data) <- gsub("angle", "Angle", names(Selected_Data))
+names(Selected_Data) <- gsub("gravity", "Gravity", names(Selected_Data))
 
 
 ## Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
