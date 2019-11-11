@@ -42,7 +42,9 @@ Selected_Data$label <- activities[Selected_Data$label, 2]
 
 ## Step 4: Appropriately labels the data set with descriptive variable names.
 names(Selected_Data)[2] <- "activity"
-names(Selected_Data)<-gsub("^t", "TimeDomain", names(Selected_Data))
+names(Selected_Data) <- gsub("[^[:alnum:]]", "", names(Selected_Data)) # remove special characters
+names(Selected_Data) <- gsub("^t", "TimeDomain", names(Selected_Data))
+names(Selected_Data) <- gsub("tBody", "TimeDomainBody", names(Selected_Data))
 names(Selected_Data)<-gsub("^f", "FrequencyDomain", names(Selected_Data))
 names(Selected_Data)<-gsub("Acc", "Accelerometer", names(Selected_Data))
 names(Selected_Data)<-gsub("Gyro", "Gyroscope", names(Selected_Data))
